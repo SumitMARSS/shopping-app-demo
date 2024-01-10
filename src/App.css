@@ -1,0 +1,14 @@
+.App{
+  text-align: center;
+}
+.nav{
+  position: fixed;
+  height: 5rem;
+  z-index: 20;
+}
+
+.Routes-pages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+.cartItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    padding: 1.5rem;
+    margin-left: 12rem;
+    gap: 1.25rem;
+    border-bottom: 0.5rem solid green;
+    border-radius: 2rem;
+    transition-duration: 600ms;
+    box-shadow: 3px 3px 10px solid green;
+}
+
+.cartItem:hover{
+    scale: 1.1;
+}
+
+.cart-price-dump{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: red;
+}
+
+.cart-price-dump button:hover{
+    transition-duration: 600ms;
+}
+
+.cart-price-dump button:hover{
+    color: white;
+    background-color: red;
+    border: 3px solid white;
+    box-shadow: 3px 3px 10px solid red;
+}

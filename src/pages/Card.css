@@ -1,0 +1,174 @@
+
+
+.card-item{
+    width: calc(21% - 10px); /* Adjust as needed for spacing between cards */
+    margin-bottom: 20px; 
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0rem;
+    transition-duration: 800ms;
+    padding: 1rem;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 1rem;
+}
+
+.card-title{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1; /* Adjust the number of lines to display */
+    line-clamp: 1; /* Adjust the number of lines to display */
+    text-overflow: ellipsis;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item:hover{
+    box-shadow: 4px 4px 10px black;
+    scale: 1.05;
+    border-radius: 1.5rem;
+}
+
+.card-descrip p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Adjust the number of lines to display */
+    line-clamp: 2; /* Adjust the number of lines to display */
+    text-overflow: ellipsis;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+}
+
+.all-related-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.stock{
+    font-size: 0.5rem;
+    color: green;
+    font-weight: 700;
+    font-style: italic;
+}
+.stock span{
+    color: red;
+    font-size: 0.7rem;
+    font-style:normal;
+}
+
+.rating{
+    font-size: 0.5rem;
+}
+
+img{
+    width: 5rem;
+    height: 7rem;
+}
+.price-tag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+button{
+    all: unset;
+    padding: 0.4rem;
+    border: 3px solid black;
+    border-radius: 1.5rem;
+    transition-duration: 800ms;
+    font-weight: 500;
+}
+button:hover{
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    box-shadow: 3px 3px 8px black;
+    border: 3px solid white;
+    scale: 1.1;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: green;
+}
+
+
+.disc{
+    font-size: 0.5rem;
+    font-weight: 700;
+    color: green;
+}
+.disc span{
+    color: red;
+    font-size: 0.7rem;
+}
+
+.add-to-cart{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1150px) {
+    
+    .card-item{
+        width: calc(25% - 10px); /* Adjust as needed for spacing between cards */
+        margin-bottom: 20px; 
+        height: 19rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+        transition-duration: 800ms;
+        padding: 1rem;
+        box-shadow: 3px 3px 10px black;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    .card-item{
+        width: calc(40% - 10px); /* Adjust as needed for spacing between cards */
+        margin-bottom: 20px; 
+        height: 19rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+        transition-duration: 800ms;
+        padding: 1rem;
+        box-shadow: 3px 3px 10px black;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    
+    .card-item{
+        width: calc(70% - 10px); /* Adjust as needed for spacing between cards */
+        margin-bottom: 20px; 
+        height: 19rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+        transition-duration: 800ms;
+        padding: 1rem;
+        box-shadow: 3px 3px 10px black;
+        border-radius: 1rem;
+    }
+}

@@ -1,0 +1,75 @@
+
+.cards-spinners {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Adjust as needed for spacing between cards */
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    padding: 25px;
+    width: 80%;
+    min-height: 100vh;
+} 
+
+.filter-section{
+    position: relative;
+    top: 0.76rem;
+    min-width: 100%;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+label{
+    font-weight: 600;
+}
+input{
+    width: 10rem;
+    border: 2px solid black;
+}
+.filt-button{
+    width: 8rem;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .cards-spinners {
+        margin-top: 15%;
+    } 
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .cards-spinners {
+        margin-top: 25%;
+    } 
+    
+    .filter-section{
+        margin-left: 13rem;
+        position: relative;
+        top: -2rem;
+        min-width: 100%;
+        padding: 2rem 2rem;
+        display: flex;
+        right: 24%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: -3rem;
+    }
+    .filt-button{
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    
+    .cards-spinners {
+        margin-top: 30%;
+    } 
+}

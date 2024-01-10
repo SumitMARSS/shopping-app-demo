@@ -1,0 +1,46 @@
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+input{
+    color: black;
+    width: 14rem;
+    height: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: white;
+    padding: 5px 5px;
+    padding-left: 1rem;
+}
+
+.search-icon{
+    all: unset;
+    color: white;
+    background-color: black;
+    padding: 4px 4px;
+    border-radius: 3rem;
+    transition-duration: 800ms;
+}
+
+
+
+@media screen and (max-width: 450px) {
+        
+    input{
+        color: black;
+        width: 9rem;
+        height: 1.2rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        border-radius: 0.5rem;
+        border: white;
+        padding: 5px 5px;
+        padding-left: 1rem;
+    }
+
+}
