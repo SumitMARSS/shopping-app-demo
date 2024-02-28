@@ -4,7 +4,7 @@
 
 Immerse yourself in a delightful shopping experience with my React-powered app, featuring seamless authentication, dynamic product filtering, and an engaging user interface.
 
-Visit demo on: [Shopping App Demo]((https://shopping-app-by-sumit.netlify.app/))
+Visit demo on: [Shopping App Demo](https://shopping-app-by-sumit.netlify.app/)
 
 🛍️ **Shopping App Highlights:**
 
