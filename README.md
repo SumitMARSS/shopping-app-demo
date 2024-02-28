@@ -35,17 +35,17 @@ Visit demo on: [Shopping App Demo](https://shopping-app-by-sumit.netlify.app/)
 6. **View Cart**: Click on the cart button to view your cart. Here, you can see the total price and the items you've added. You can also delete items from the cart.
 
 ## Screenshots
-
+**Login Page**
 ![Screenshot (192)](https://github.com/SumitMARSS/shopping-app-demo/assets/112120780/691f09cd-6d4c-4bae-b05a-2996bc4464d0)
-
+**Login Page**
 ![Screenshot (193)](https://github.com/SumitMARSS/shopping-app-demo/assets/112120780/b70ae227-00b4-4ce9-9065-a6fc773d74b0)
-
+**Home page for product**
 ![Screenshot (194)](https://github.com/SumitMARSS/shopping-app-demo/assets/112120780/3bc52235-ecf4-4f2b-b729-ea7342ab8e0c)
-
+**Searching for Products**
 ![Screenshot (195)](https://github.com/SumitMARSS/shopping-app-demo/assets/112120780/a6d22236-6057-4145-8719-5af4724c634b)
-
+**Adding Items to Cart and Filtre Products**
 ![Screenshot (197)](https://github.com/SumitMARSS/shopping-app-demo/assets/112120780/1a849e00-425b-4b59-bdfb-ea98d0a687ce)
-
+**Viewing Cart**
 ![Screenshot (198)](https://github.com/SumitMARSS/shopping-app-demo/assets/112120780/bc0311d4-05ce-4f23-a607-6dd8b6e57b75)
 
 This website is hosted on [Netlify].
